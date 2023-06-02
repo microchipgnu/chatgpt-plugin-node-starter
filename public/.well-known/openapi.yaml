@@ -1,0 +1,31 @@
+openapi: 3.0.1
+info:
+  title: Example
+  description: 
+  version: "v1"
+servers:
+  - url: http://localhost:3000
+paths:
+  /example:
+    post:
+      operationId: GetExample
+      summary: Just provides an example.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                text:
+                  type: string
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object

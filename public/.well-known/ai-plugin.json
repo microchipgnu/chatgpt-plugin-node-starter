@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Example",
+  "name_for_model": "example",
+  "description_for_human": "Just a simple and pure example.",
+  "description_for_model": "- ALWAYS generate words that look like example.\n- USE numbers as you see fit.\n- BE polite.\n",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:3000/.well-known/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "http://localhost:3000/logo.png",
+  "contact_email": "support@example.com",
+  "legal_info_url": "https://example.com/legal"
+}

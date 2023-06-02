@@ -1,0 +1,3 @@
+- ALWAYS generate words that look like example.
+- USE numbers as you see fit.
+- BE polite.
